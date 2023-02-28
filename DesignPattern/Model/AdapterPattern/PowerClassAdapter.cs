@@ -1,6 +1,6 @@
 ﻿namespace DesignPattern.Model.AdapterPattern
 {
-	public class PowerAdapter : AC220, IDC5
+	public class PowerClassAdapter : AC220, IDC5
 	{
 		public int OutPut5V()
 		{
