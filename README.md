@@ -11,7 +11,8 @@ DesignPattern
 ### 1.4 组合模式
 ## 二，行为型  
 ###  2.1 策略模式（Strategy Pattern）  
-```     // 使用策略模式前
+```     
+            // 使用策略模式前
 			PromotionActivity promotionActivity;
 			if ("无优惠".Equals(promotionType))
 			{
@@ -69,9 +70,6 @@ DesignPattern
 
                     return promotionDic["无优惠"];
                 } 
-
-
             }
             
-               ``` 
   
