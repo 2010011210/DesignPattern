@@ -1,5 +1,7 @@
 ﻿using DesignPattern.Model.AdapterPattern;
+using DesignPattern.Model.BridgePattern;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Concurrent;
 
 namespace DesignPattern.Controllers
 {
@@ -28,6 +30,24 @@ namespace DesignPattern.Controllers
 			var adapterObj = new PowerObjectAdapter(new AC220());
 			outPut = adapterObj.OutPut5V();         // 只能调用OutPut5V方法。
 			return outPut;
+		}
+
+		/// <summary>
+		/// 桥接
+		/// </summary>
+		/// <returns></returns>
+		[HttpPost]
+		[Route("bridge")]
+		public string BridgePattern()
+		{
+			IMessage message = new QQMessage();
+			AbstractMessage abstractMessage = new NormalMessage(message);
+			abstractMessage.SendMessage("你在哪？","李雷");
+
+			message = new WeChatMessage();
+			abstractMessage = new UrgencyMessage(message);
+			abstractMessage.SendMessage("你在哪？", "李雷");
+			return "ok";
 		}
 	}
 }
