@@ -13,5 +13,12 @@ namespace DesignPattern.Controllers
             return "index";
         }
 
-	}
+        [HttpPost]
+        [Route("SingletonPattern")]
+        public string SingletonPattern()
+        {
+            return "index";
+        }
+
+    }
 }

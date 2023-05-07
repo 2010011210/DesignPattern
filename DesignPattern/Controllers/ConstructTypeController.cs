@@ -15,7 +15,7 @@ namespace DesignPattern.Controllers
         }
 
         /// <summary>
-        /// 适配器
+        /// 1.适配器
         /// </summary>
         /// <returns></returns>
         [HttpPost]
@@ -33,7 +33,7 @@ namespace DesignPattern.Controllers
 		}
 
 		/// <summary>
-		/// 桥接
+		/// 2.桥接
 		/// </summary>
 		/// <returns></returns>
 		[HttpPost]
