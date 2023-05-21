@@ -1,53 +1,43 @@
 ﻿using DesignPattern.Model.AdapterPattern;
 using DesignPattern.Model.BridgePattern;
+using DesignPattern.Model.SingletonPattern;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Concurrent;
 
 namespace DesignPattern.Controllers
 {
+	/// <summary>
+	/// 创建型
+	/// </summary>
     [ApiController]
     [Route("[controller]")]
     public class ConstructTypeController : Controller
     {
+        [HttpGet]
+        [Route("index")]
         public string Index()
         {
             return "adapter";
         }
 
-        /// <summary>
-        /// 1.适配器
-        /// </summary>
-        /// <returns></returns>
         [HttpPost]
-        [Route("adapter")]
-		public int AdapterPattern()
-		{
-            // 1.类适配器
-            var adapter = new PowerClassAdapter();
-            var outPut = adapter.OutPut5V();        //adapter也可以调用父类中的方法，违背最少知道原则。
-
-			//2.对象适配器
-			var adapterObj = new PowerObjectAdapter(new AC220());
-			outPut = adapterObj.OutPut5V();         // 只能调用OutPut5V方法。
-			return outPut;
-		}
-
-		/// <summary>
-		/// 2.桥接
-		/// </summary>
-		/// <returns></returns>
-		[HttpPost]
-		[Route("bridge")]
-		public string BridgePattern()
-		{
-			IMessage message = new QQMessage();
-			AbstractMessage abstractMessage = new NormalMessage(message);
-			abstractMessage.SendMessage("你在哪？","李雷");
-
-			message = new WeChatMessage();
-			abstractMessage = new UrgencyMessage(message);
-			abstractMessage.SendMessage("你在哪？", "李雷");
-			return "ok";
-		}
-	}
+        [Route("SingletonPattern")]
+        public string SingletonPattern()
+        {
+            SingletonPerson singletonPerson = null;
+            List<Task> allTasks= new List<Task>();
+            for (int i = 0; i < 100; i++)
+            {
+                int j = i;
+                allTasks.Add(Task.Run(() =>
+                {
+                    singletonPerson = SingletonPerson.GetInstance();
+                    singletonPerson.GrowOneYear();
+                    Console.WriteLine($"第{j}个:{Thread.CurrentThread.ManagedThreadId.ToString()}");
+                }));
+            }
+            Task.WaitAll(allTasks.ToArray(),1000);
+            return singletonPerson.Age.ToString();
+        }
+    }
 }

@@ -18,6 +18,7 @@
                 {
                     if (instance == null) 
                     {
+                        Console.WriteLine("创建SingletonPerson");
                         instance = new SingletonPerson();
                     }
                 }
@@ -48,6 +49,21 @@
             return instance;
         }
 
+        private int _Age;
+        public int Age 
+        {   get
+            {
+                return _Age;
+            }
+        }
+
+        public void GrowOneYear() 
+        {
+            lock (Sington_Lock)   // 单例的属性值改变的时候要考虑线程安全问题。
+            {
+                _Age ++;
+            }
+        }
 
     }
 }
