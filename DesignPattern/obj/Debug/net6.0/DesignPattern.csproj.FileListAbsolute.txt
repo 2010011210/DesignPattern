@@ -71,3 +71,5 @@ C:\Users\wangcong\Desktop\github\DesignPattern2\DesignPattern\DesignPattern\bin\
 C:\Users\wangcong\Desktop\github\DesignPattern2\DesignPattern\DesignPattern\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\wangcong\Desktop\github\DesignPattern2\DesignPattern\DesignPattern\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\wangcong\Desktop\github\DesignPattern2\DesignPattern\DesignPattern\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\wangcong\Desktop\github\DesignPattern2\DesignPattern\DesignPattern\bin\Debug\net6.0\DesignPattern.xml
+C:\Users\wangcong\Desktop\github\DesignPattern2\DesignPattern\DesignPattern\obj\Debug\net6.0\DesignPattern.xml

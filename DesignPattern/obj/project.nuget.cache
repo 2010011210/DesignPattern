@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "35Bwka5E+RicOTMXFIwRrEMadgDP3jPvlQbW2avN/2rgECWhwoEkORrCw/GNsMJQgkzQbFp+nryITeM6u5P+uw==",
+  "dgSpecHash": "MNoU+g9uOJbp9x/jGkS4o45bGy2H5upz9vx0I2ADNL/+LwDBTSoo/ob/XQJXXyid+cjLx7HkJ1qyHya1TG1W3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\wangcong\\Desktop\\github\\DesignPattern2\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,7 @@
     "C:\\Users\\wangcong\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\wangcong\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\wangcong\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\wangcong\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\wangcong\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\wangcong\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\wangcong\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\wangcong\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.30.0\\system.identitymodel.tokens.jwt.6.30.0.nupkg.sha512",
@@ -28,5 +28,12 @@
     "C:\\Users\\wangcong\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\wangcong\\.nuget\\packages\\system.text.json\\6.0.7\\system.text.json.6.0.7.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.jushuitan.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

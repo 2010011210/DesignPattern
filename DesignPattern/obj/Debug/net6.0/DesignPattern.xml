@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesignPattern</name>
+    </assembly>
+    <members>
+        <member name="T:DesignPattern.Controllers.ActionTypeController">
+            <summary>
+            行为行
+            </summary>
+        </member>
+        <member name="M:DesignPattern.Controllers.ActionTypeController.Strategy(System.String)">
+            <summary>
+            策略模式
+            </summary>
+            <param name="promotionType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Controllers.ActionTypeController.State">
+            <summary>
+            状态模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DesignPattern.Controllers.ConstructTypeController">
+            <summary>
+            创建型,总共（）种
+            </summary>
+        </member>
+        <member name="M:DesignPattern.Controllers.ConstructTypeController.SingletonPattern(System.String)">
+            <summary>
+            单例
+            </summary>
+            <param name="id">测试使用的id号码</param>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Controllers.ConstructTypeController.BuilderPattern">
+            <summary>
+            建造者
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Controllers.ConstructTypeController.PrototypePattern">
+            <summary>
+            原型模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DesignPattern.Controllers.StructureTypeController">
+            <summary>
+            结构性
+            </summary>
+        </member>
+        <member name="M:DesignPattern.Controllers.StructureTypeController.AdapterPattern">
+            <summary>
+            1.适配器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Controllers.StructureTypeController.BridgePattern">
+            <summary>
+            2.桥接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DesignPattern.Controllers.TokenController">
+            <summary>
+            创建型
+            </summary>
+        </member>
+        <member name="T:DesignPattern.Model.AdapterPattern.PowerObjectAdapter">
+            <summary>
+            对象适配器
+            </summary>
+        </member>
+        <member name="T:DesignPattern.Model.ApiVersion.ApiVersion">
+            <summary>
+            接口版本号
+            </summary>
+        </member>
+        <member name="M:DesignPattern.Model.SingletonPattern.SingletonPerson.#ctor">
+            <summary>
+            构造函数要私有化
+            </summary>
+        </member>
+        <member name="M:DesignPattern.Model.SingletonPattern.SingletonPerson.GetInstanceBetter">
+            <summary>
+            下面这个写法更优雅 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Model.StrategyPattern.PromotionStrategyFactory.GetPromotionKeys">
+            <summary>
+            把优惠种类返回给前端，有策略增加或者变动，前端可以动态修改
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Utility.DateTimeExtension.GetUnixTimeStamp(System.DateTime)">
+            <summary>
+            获取UNIX（秒）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Utility.DateTimeExtension.GetUnixMilTimeStamp(System.DateTime)">
+            <summary>
+            获取UNIX（毫秒）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Utility.Security.DecryptAES(System.String,System.String,System.Security.Cryptography.CipherMode,System.String,System.Nullable{System.Int32})">
+            <summary>
+            AES解密
+            </summary>
+            <param name="str">需要解密的字符串</param>
+            <param name="key">密钥</param>
+            <param name="mode">模式</param>
+            <param name="encoding">编码</param>
+            <param name="IVLength">偏移量</param>
+            <returns>解密后的字符串</returns>
+        </member>
+    </members>
+</doc>

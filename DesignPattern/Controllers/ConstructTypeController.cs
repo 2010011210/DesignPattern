@@ -9,9 +9,10 @@ using System.Collections.Concurrent;
 
 namespace DesignPattern.Controllers
 {
-	/// <summary>
-	/// 创建型
-	/// </summary>
+    /// <summary>
+    /// 创建型,总共（）种
+    /// </summary>
+    [ApiExplorerSettings(GroupName = "V1")]
     [ApiController]
     [Route("[controller]")]
     public class ConstructTypeController : Controller
@@ -26,13 +27,31 @@ namespace DesignPattern.Controllers
         /// <summary>
         /// 单例
         /// </summary>
+        /// <param name="id">测试使用的id号码</param>
         /// <returns></returns>
         [HttpPost]
         [Route("SingletonPattern")]
-        public string SingletonPattern()
+        public string SingletonPattern(string id)
         {
             SingletonPerson singletonPerson = null;
+            //var singletonObject = SingletonPerson.instanceCreateInStaticConstruction;
+
+            Console.WriteLine("************** static静态构造函数 ******************");
             List<Task> allTasks= new List<Task>();
+            for (int i = 0; i < 100; i++)
+            {
+                int j = i;
+                allTasks.Add(Task.Run(() =>
+                {
+                    singletonPerson = SingletonPerson.instance;
+                    singletonPerson.GrowOneYear();
+                    Console.WriteLine($"第{j}个:Age{singletonPerson.Age},ThreadId:{Thread.CurrentThread.ManagedThreadId.ToString()}");
+                }));
+            }
+            Task.WaitAll(allTasks.ToArray(), 1000);
+            allTasks.Clear();
+
+            Console.WriteLine("************** 获取单例 ******************");
             for (int i = 0; i < 100; i++)
             {
                 int j = i;
@@ -40,10 +59,11 @@ namespace DesignPattern.Controllers
                 {
                     singletonPerson = SingletonPerson.GetInstance();
                     singletonPerson.GrowOneYear();
-                    Console.WriteLine($"第{j}个:{Thread.CurrentThread.ManagedThreadId.ToString()}");
+                    Console.WriteLine($"static第{j}个:Age{singletonPerson.Age},ThreadId:{Thread.CurrentThread.ManagedThreadId.ToString()}");
                 }));
             }
-            Task.WaitAll(allTasks.ToArray(),1000);
+            Task.WaitAll(allTasks.ToArray(), 1000);
+
             return singletonPerson.Age.ToString();
         }
 
@@ -55,14 +75,17 @@ namespace DesignPattern.Controllers
         [Route("BuilderPattern")]
         public string BuilderPattern()
         {
+            var computer = new Computer();
+            var name1 = computer.Name;
+            var name2 = computer.Name;
             var computerBuilder = new ComputerBuilder().SetBrand("ThinkBook")
                 .SetCPU("AMD_R7_5600")
                 .SetMemory(32)
                 .SetHardDisk(500)
                 .SetScreen(14.0m);
-            Computer computer = computerBuilder.Build();
+            Computer computerInstance = computerBuilder.Build();
 
-            return JsonConvert.SerializeObject(computer);
+            return JsonConvert.SerializeObject(computerInstance);
         }
 
         /// <summary>

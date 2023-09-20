@@ -1,7 +1,11 @@
+using DesignPattern.Model.ApiVersion;
+using DesignPattern.Model.BuilderPattern;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.OpenApi.Extensions;
 
 namespace DesignPattern.Controllers
 {
+    [ApiExplorerSettings(GroupName = "V2")]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -21,6 +25,8 @@ namespace DesignPattern.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
+            var name = nameof(Computer);
+            var typeName = typeof(Computer);
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),

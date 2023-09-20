@@ -9,7 +9,8 @@ namespace DesignPattern.Controllers
     /// <summary>
     /// 结构性
     /// </summary>
-	[ApiController]
+    [ApiExplorerSettings(GroupName = "V1")]
+    [ApiController]
 	[Route("[controller]")]
 	public class StructureTypeController : Controller
     {

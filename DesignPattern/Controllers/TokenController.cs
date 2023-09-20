@@ -19,6 +19,7 @@ namespace DesignPattern.Controllers
     /// </summary>
     [ApiController]
     [Route("[controller]")]
+    [ApiExplorerSettings(GroupName = "V2")]
     public class TokenController : Controller
     {
         [HttpPost]
