@@ -22,9 +22,21 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:DesignPattern.Controllers.ActionTypeController.Observer">
+            <summary>
+            观察者模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DesignPattern.Controllers.ActionTypeController.ChainOfResponsibility(System.Int32)">
+            <summary>
+            责任链模式
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:DesignPattern.Controllers.ConstructTypeController">
             <summary>
-            创建型,总共（）种
+            创建型,总共（）种. 1.单例，2.建造者，3.原型模式
             </summary>
         </member>
         <member name="M:DesignPattern.Controllers.ConstructTypeController.SingletonPattern(System.String)">
@@ -46,9 +58,16 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:DesignPattern.Controllers.ConstructTypeController.FactoryPattern">
+            <summary>
+            工厂模式
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:DesignPattern.Controllers.StructureTypeController">
             <summary>
-            结构性
+            结构性  1.是配置 2.桥接
+            待实现  装饰器。
             </summary>
         </member>
         <member name="M:DesignPattern.Controllers.StructureTypeController.AdapterPattern">
@@ -76,6 +95,33 @@
         <member name="T:DesignPattern.Model.ApiVersion.ApiVersion">
             <summary>
             接口版本号
+            </summary>
+        </member>
+        <member name="P:DesignPattern.Model.ChainOfResponsibility.ApplyContent.Hours">
+            <summary>
+            请假多长事件
+            </summary>
+        </member>
+        <member name="P:DesignPattern.Model.ChainOfResponsibility.ApplyContent.Reason">
+            <summary>
+            请假原因
+            </summary>
+        </member>
+        <member name="P:DesignPattern.Model.ChainOfResponsibility.ApplyContent.Result">
+            <summary>
+            请假结果
+            </summary>
+        </member>
+        <member name="M:DesignPattern.Model.ChainOfResponsibility.CEO.Audit(DesignPattern.Model.ChainOfResponsibility.ApplyContent)">
+            <summary>
+            审核
+            </summary>
+            <param name="applyContent"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DesignPattern.Model.ObserverPattern.IObserver">
+            <summary>
+            必须有行为
             </summary>
         </member>
         <member name="M:DesignPattern.Model.SingletonPattern.SingletonPerson.#ctor">

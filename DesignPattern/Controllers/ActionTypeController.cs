@@ -1,4 +1,6 @@
-﻿using DesignPattern.Model.StatePattern;
+﻿using DesignPattern.Model.ChainOfResponsibility;
+using DesignPattern.Model.ObserverPattern;
+using DesignPattern.Model.StatePattern;
 using DesignPattern.Model.StrategyPattern;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography.X509Certificates;
@@ -87,5 +89,54 @@ namespace DesignPattern.Controllers
 
             return "state";
 		}
+
+		/// <summary>
+		/// 观察者模式
+		/// </summary>
+		/// <returns></returns>
+		[HttpPost]
+		[Route("Observer")]
+		public string Observer() 
+		{
+			var cat = new Cat();
+			// 通过把行为添加到List实现
+			cat.AddObserver(new Mouse());
+			cat.AddObserver(new Dog());
+			cat.AddObserver(new Child());
+			cat.MiaoObserver();
+
+			// 通过事件实现
+			cat.observeEvent += new Mouse().Zhi;
+			cat.observeEvent += new Dog().Wang;
+			cat.observeEvent += new Child().WA;
+			cat.MiaoObserverByEvent();
+            return "Observer";
+		}
+
+		/// <summary>
+		/// 责任链模式
+		/// </summary>
+		/// <returns></returns>
+		[HttpPost]
+        [Route("ChainOfResponsibility")]
+        public string ChainOfResponsibility(int hour) 
+		{
+			var applyContent = new ApplyContent() 
+			{
+				Hours= hour,
+			};
+
+			var pm = new PM("项目管理");
+			var manager = new Manager("经理");
+			var ceo = new CEO("总裁");
+
+			manager.SetAuditNext(ceo);
+			pm.SetAuditNext(manager);
+
+			pm.Audit(applyContent);
+
+            return Newtonsoft.Json.JsonConvert.SerializeObject(applyContent);
+		}
+
 	}
 }

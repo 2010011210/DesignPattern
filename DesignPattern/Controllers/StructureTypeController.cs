@@ -7,7 +7,8 @@ using System.ComponentModel;
 namespace DesignPattern.Controllers
 {
     /// <summary>
-    /// 结构性
+    /// 结构性  1.是配置 2.桥接
+    /// 待实现  装饰器。
     /// </summary>
     [ApiExplorerSettings(GroupName = "V1")]
     [ApiController]

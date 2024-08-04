@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MNoU+g9uOJbp9x/jGkS4o45bGy2H5upz9vx0I2ADNL/+LwDBTSoo/ob/XQJXXyid+cjLx7HkJ1qyHya1TG1W3A==",
+  "dgSpecHash": "ztModO7bmXQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\wangcong\\Desktop\\github\\DesignPattern2\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
   "expectedPackageFiles": [
@@ -28,12 +28,5 @@
     "C:\\Users\\wangcong\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\wangcong\\.nuget\\packages\\system.text.json\\6.0.7\\system.text.json.6.0.7.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.jushuitan.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }

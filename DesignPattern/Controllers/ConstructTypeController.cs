@@ -1,6 +1,7 @@
 ﻿using DesignPattern.Model.AdapterPattern;
 using DesignPattern.Model.BridgePattern;
 using DesignPattern.Model.BuilderPattern;
+using DesignPattern.Model.FactoryPattern;
 using DesignPattern.Model.PrototypePattern;
 using DesignPattern.Model.SingletonPattern;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +11,7 @@ using System.Collections.Concurrent;
 namespace DesignPattern.Controllers
 {
     /// <summary>
-    /// 创建型,总共（）种
+    /// 创建型,总共（）种. 1.单例，2.建造者，3.原型模式
     /// </summary>
     [ApiExplorerSettings(GroupName = "V1")]
     [ApiController]
@@ -114,6 +115,36 @@ namespace DesignPattern.Controllers
 
             return JsonConvert.SerializeObject(cloneOrder);
         }
+
+        /// <summary>
+        /// 工厂模式
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("FactoryPattern")]
+        public string FactoryPattern()
+        {
+            // 简单工厂
+            BYDFactory bydCarFactory = new BYDFactory();
+            IVehicle bydCar = bydCarFactory.CreateCar(BYDCarTypeEnum.Yuan);
+            bydCar.GetName();
+
+            /// <summary>
+            /// 抽象工厂模式：
+            /// 抽象工厂是应对产品族概念的，比如说，每个汽车公司可能要同时生产轿车，货车，客车，那么每一个工厂都要有创建轿车，货车和客车的方法。
+            /// 应对产品族概念而生，增加新的产品线很容易，但是无法增加新的产品。
+            /// </summary>
+            ICarFactory bydFactory = new BYDFactory();
+            bydFactory.CreateCar().Speed();
+            bydFactory.CreateSUV().Sport();
+
+            ICarFactory teslaFactory = new TeslaFactory();
+            teslaFactory.CreateCar().Speed();
+            teslaFactory.CreateSUV().Sport();
+
+            return JsonConvert.SerializeObject(bydCar);
+        }
+
 
 
 
