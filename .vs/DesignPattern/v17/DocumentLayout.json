@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\GitHub\\DesignPattern\\DesignPattern\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\controllers\\structuretypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\controllers\\structuretypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\model\\bridgepattern\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\model\\bridgepattern\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\model\\bridgepattern\\abstractmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\model\\bridgepattern\\abstractmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\controllers\\constructtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\controllers\\constructtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\controllers\\actiontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\controllers\\actiontypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\model\\observerpattern\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\model\\observerpattern\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\model\\observerpattern\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,22 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\model\\observerpattern\\mouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\model\\observerpattern\\mouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\model\\observerpattern\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\model\\observerpattern\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\controllers\\constructtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\controllers\\constructtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\controllers\\structuretypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\controllers\\structuretypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\model\\bridgepattern\\abstractmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|solutionrelative:designpattern\\model\\bridgepattern\\abstractmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2DB50AC-EA07-4B95-BC32-8114F2A27389}|DesignPattern\\DesignPattern.csproj|d:\\github\\designpattern\\designpattern\\designpattern\\model\\chainofresponsibility\\auditbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,19 +66,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 659,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AbstractMessage.cs",
-              "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\BridgePattern\\AbstractMessage.cs",
-              "RelativeDocumentMoniker": "DesignPattern\\Model\\BridgePattern\\AbstractMessage.cs",
-              "ToolTip": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\BridgePattern\\AbstractMessage.cs",
-              "RelativeToolTip": "DesignPattern\\Model\\BridgePattern\\AbstractMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "IMessage.cs",
+              "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\BridgePattern\\IMessage.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\Model\\BridgePattern\\IMessage.cs",
+              "ToolTip": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\BridgePattern\\IMessage.cs",
+              "RelativeToolTip": "DesignPattern\\Model\\BridgePattern\\IMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T06:27:17.9Z",
+              "WhenOpened": "2024-08-05T07:28:14.29Z",
               "EditorCaption": ""
             },
             {
@@ -131,7 +135,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "AbstractMessage.cs",
+              "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\BridgePattern\\AbstractMessage.cs",
+              "RelativeDocumentMoniker": "DesignPattern\\Model\\BridgePattern\\AbstractMessage.cs",
+              "ToolTip": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\BridgePattern\\AbstractMessage.cs",
+              "RelativeToolTip": "DesignPattern\\Model\\BridgePattern\\AbstractMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T06:27:17.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AuditBase.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ChainOfResponsibility\\AuditBase.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ChainOfResponsibility\\AuditBase.cs",
@@ -139,25 +156,24 @@
               "RelativeToolTip": "DesignPattern\\Model\\ChainOfResponsibility\\AuditBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-15T14:53:07.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-15T14:53:07.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ActionTypeController.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Controllers\\ActionTypeController.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Controllers\\ActionTypeController.cs",
               "ToolTip": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Controllers\\ActionTypeController.cs",
               "RelativeToolTip": "DesignPattern\\Controllers\\ActionTypeController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAYwEoAAAApAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwIEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-01-15T14:13:35.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Dog.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ObserverPattern\\Dog.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ObserverPattern\\Dog.cs",
@@ -165,25 +181,24 @@
               "RelativeToolTip": "DesignPattern\\Model\\ObserverPattern\\Dog.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-15T14:19:57.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-15T14:19:57.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Cat.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ObserverPattern\\Cat.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ObserverPattern\\Cat.cs",
               "ToolTip": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ObserverPattern\\Cat.cs",
               "RelativeToolTip": "DesignPattern\\Model\\ObserverPattern\\Cat.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAjwAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-01-15T14:18:48.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IObserver.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ObserverPattern\\IObserver.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ObserverPattern\\IObserver.cs",
@@ -195,20 +210,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "StructureTypeController.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Controllers\\StructureTypeController.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Controllers\\StructureTypeController.cs",
               "ToolTip": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Controllers\\StructureTypeController.cs",
               "RelativeToolTip": "DesignPattern\\Controllers\\StructureTypeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAA0wD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-01-15T14:13:03.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ConstructTypeController.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Controllers\\ConstructTypeController.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Controllers\\ConstructTypeController.cs",
@@ -221,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Mouse.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ObserverPattern\\Mouse.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ObserverPattern\\Mouse.cs",
@@ -229,12 +244,11 @@
               "RelativeToolTip": "DesignPattern\\Model\\ObserverPattern\\Mouse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-15T14:21:10.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-15T14:21:10.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApplyContent.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ChainOfResponsibility\\ApplyContent.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ChainOfResponsibility\\ApplyContent.cs",
@@ -246,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Manager.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ChainOfResponsibility\\Manager.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ChainOfResponsibility\\Manager.cs",
@@ -258,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CEO.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ChainOfResponsibility\\CEO.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ChainOfResponsibility\\CEO.cs",
@@ -270,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Child.cs",
               "DocumentMoniker": "D:\\GitHub\\DesignPattern\\DesignPattern\\DesignPattern\\Model\\ObserverPattern\\Child.cs",
               "RelativeDocumentMoniker": "DesignPattern\\Model\\ObserverPattern\\Child.cs",
