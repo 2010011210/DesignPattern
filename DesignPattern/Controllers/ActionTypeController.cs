@@ -8,7 +8,9 @@ using System.Security.Cryptography.X509Certificates;
 namespace DesignPattern.Controllers
 {
     /// <summary>
-    /// 行为行
+    /// 行为行 11种：
+	/// 策略模式、模板方法模式、观察者模式、责任链模式、
+	/// 命令模式、备忘录模式、迭代子模式、状态模式、访问者模式、中介者模式、解释器模式
     /// </summary>
     [ApiExplorerSettings(GroupName = "V1")]
     [ApiController]
@@ -22,17 +24,17 @@ namespace DesignPattern.Controllers
 			return "index";
 		}
 
-		/// <summary>
-		/// 策略模式
-		/// </summary>
-		/// <param name="promotionType"></param>
-		/// <returns></returns>
-		[HttpPost]
+        /// <summary>
+        /// 策略模式 （例如：将每个算法封装起来，使它们可以互换使用。）
+        /// </summary>
+        /// <param name="promotionType"></param>
+        /// <returns></returns>
+        [HttpPost]
 		[Route("Strategy")]
 		public string Strategy(string promotionType)
 		{
-			// 使用策略模式前
-			PromotionActivity promotionActivity;
+            // 策略模式。把优惠策略类放在PromotionActivity中，计算逻辑由构造函数传入。只需要调用Execute
+            PromotionActivity promotionActivity;
 			if ("无优惠".Equals(promotionType))
 			{
 				promotionActivity = new PromotionActivity(new EmptyPromotion());
@@ -55,7 +57,7 @@ namespace DesignPattern.Controllers
 			promotionActivity.Execute();
 
 
-			// 使用策略模式后
+			// 优化后的策略模式
 			IPromotion promotionStrategy = PromotionStrategyFactory.GetPromotion(promotionType);
 			promotionStrategy.DoPromotion();
 

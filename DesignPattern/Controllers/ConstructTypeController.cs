@@ -11,7 +11,7 @@ using System.Collections.Concurrent;
 namespace DesignPattern.Controllers
 {
     /// <summary>
-    /// 创建型,总共（）种. 1.单例，2.建造者，3.原型模式
+    /// 创建型,总共（5）种. 1.单例，2.建造者，3.原型模式  4.工厂方法模式 5.抽象工厂模式
     /// </summary>
     [ApiExplorerSettings(GroupName = "V1")]
     [ApiController]
