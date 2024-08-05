@@ -71,7 +71,7 @@ DesignPattern
                     return promotionDic["无优惠"];
                 } 
             }   
-```
+~~~
 ## 创建型  
 ###  单例模式(Singleton Pattern)    
 1. 构造函数私有化，只有内部可以创建
